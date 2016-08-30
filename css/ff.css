@@ -1,0 +1,16 @@
+*{padding:0; margin:0; list-style: none;}
+.banner{width: 500px; height: 330px; border: 5px solid #000; margin:100px auto; position: relative; overflow: hidden;}
+.banner .img{width: 5000px; position:  absolute; left: 0px; top:0;}/* 需要添加 position:  absolute; 才能向左移动 */
+.banner .img li{float: left;}
+.banner .img li img{width: 500px;height: 330px;}
+
+/* 左右按钮 */
+.btn {width: 30px; height: 40px; line-height: 40px; background: rgba(0,0,0,0.5); position: absolute; top: 140px; font-size: 40px; color: #fff; text-align: center; font-family: "宋体"; cursor: pointer;}
+.prev{left: 0}
+.next{right: 0}
+
+/* 小圆点 */
+.num{position: absolute; bottom: 10px; left: 0; text-align: center; width: 100%; }
+.num li{background:rgba(0,0,0,0.7);  width: 10px; height: 10px; border-radius: 50%; font-size: 0 ; margin:0 3px; cursor: pointer; display: inline-block;margin:0; }
+.num .on{background-color: #f00;}
+
